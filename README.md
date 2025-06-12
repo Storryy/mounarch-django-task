@@ -1,6 +1,6 @@
 # Mounarch Task - File Viewer
 
-A simple Django web app for viewing .txt files. Made for Mounarch's technical assessment.
+Hi Mounarch team! This is a simple Django web app for viewing .txt files as requested in your technical assessment.
 
 ## What it does
 
