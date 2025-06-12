@@ -1,0 +1,35 @@
+<!-- <section class="hero"> -->
+
+<section class="hero">
+    <div class="hero-content">
+        <h1 class="hero-title">Welcome to File Viewer</h1>
+        <p class="hero-subtitle">Choose a file to view:</p>
+        <select class="file-select" name="file" id="file">
+            <option value="" disabled selected>Select a File</option>
+            <option value="file1">file1</option>
+            <option value="file2">file2</option>
+            <option value="file3">file3</option>
+            <option value="file4">file4</option>
+            <option value="file5">file5</option>
+            <option value="file6">file6</option>
+          </select>
+          <button class="file-btn" id="view-file-btn" disabled>View File</button>
+    </div>
+    
+    <div id="file-not-found-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>File Not Found</h3>
+                <span class="close-modal" id="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <p>The file does not exist locally.</p>
+                <p>Would you like to download it from Google Drive?</p>
+            </div>
+            <div class="modal-footer">
+                <button class="modal-btn modal-btn-secondary" id="cancel-download">Cancel</button>
+                <button class="modal-btn modal-btn-primary" id="download-from-drive">Download from Google Drive</button>
+            </div>
+        </div>
+    </div>
+</section> 
